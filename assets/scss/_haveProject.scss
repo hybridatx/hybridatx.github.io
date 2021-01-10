@@ -1,7 +1,6 @@
 .haveAproject {
 	padding: 64px 69px 54px 78px;
 	background-repeat: no-repeat;
-	border-radius: 10px;
     position: relative;
     @media #{$md}{
         padding: 42px 69px 36px 57px;
@@ -21,13 +20,12 @@
         left: 0;
         content: "";
         @extend %haveProject;
-        border-radius: 10px;
-        opacity: 0.95;
+        opacity: 1;
     }
     .wantToWork-caption{
         h2{
             color: #fff;
-            font-size: 40px;
+            font-size: $heading_size;
             font-weight: 700;
             line-height: 1.4;
             margin-bottom: 13px;

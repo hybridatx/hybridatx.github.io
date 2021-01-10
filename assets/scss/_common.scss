@@ -28,8 +28,8 @@ p {
 	font-family:$font_2;
 	color: $font_color1;
 
-	font-size: 16px;
-	line-height: 30px;
+	font-size: 14px;
+	line-height: 25px;
 	margin-bottom: 15px;
 	font-weight: normal;
 }
@@ -175,8 +175,8 @@ hr {
 
 // Section Padding
 	.section-padding{
-		padding-top: 120px;
-		padding-bottom: 120px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 	.separator {
 		border-top: 1px solid #f2f2f2
@@ -842,27 +842,21 @@ hr {
 		}
 	}
 	.create-padding{
-		padding-top: 240px;
-		padding-bottom: 190px;
+		padding-bottom: 100px;
 		@media #{$laptop}{
-			padding-top: 240px;
-			padding-bottom: 190px;
+			padding-bottom: 100px;
 		}
 		@media #{$lg}{
-			padding-top: 240px;
-			padding-bottom: 190px;
+			padding-bottom: 100px;
 		}
 		@media #{$md}{
-			padding-top: 120px;
-			padding-bottom: 95px;
+			padding-bottom: 100px;
 		}
 		@media #{$sm}{
-			padding-top: 63px;
-			padding-bottom: 90px;
+			padding-bottom: 100px;
 		}
 		@media #{$xs}{
-			padding-top: 63px;
-			padding-bottom: 90px;
+			padding-bottom: 100px;
 		}
 	}
 .section-paddingr{
@@ -967,11 +961,11 @@ hr {
 	}
 
 	.footer-padding{
-		padding-top: 200px;
+		padding-top: 50px;
 		padding-bottom: 15px;
 	
 		@media #{$laptop}{
-			padding-top: 200px;
+			padding-top: 50px;
 			padding-bottom: 15px;
 		}
 		@media #{$lg}{
