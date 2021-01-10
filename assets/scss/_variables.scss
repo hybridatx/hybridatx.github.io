@@ -4,17 +4,16 @@
 $font_1 :'Poppins', sans-serif;
 $font_2 :'Poppins', sans-serif;
 
-$heading_color2: #112e41;
+$heading_color2: #020202;
+$heading_size: 36px;
 $white_color:#fff;
-
-$heading-size: 30px;
 
 // @media #{$laptop}{}
 // Responsive Variables
 
 /*------------------- Responsive --------------------------*/
 
-$laptop: 'only screen and (min-widt : 1200px) and (max-width: 1600px)';
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
 $lg :'only screen and (min-width: 992px) and (max-width: 1199px)';
 $md:'only screen and (min-width: 768px) and (max-width: 991px)';
 $xs:'(max-width: 767px)';

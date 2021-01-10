@@ -25,7 +25,7 @@
     }
     // 
     &::after{
-        background-image: url(../img/shape/plus3.png);
+        background-image: url(../img/shape/plus2.png);
         position: absolute;
         content: "";
         z-index: -1;
@@ -72,7 +72,7 @@
         }
         .do-caption{
             h4{
-                font-size: 20px;
+                font-size: 24PX;
                 font-weight: 700;
                 margin-bottom: 42px;
                 color: $heading-color;

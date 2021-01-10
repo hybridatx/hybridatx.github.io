@@ -30,7 +30,7 @@
                 z-index: 1;
 
                 & a{
-                    color: #002e5b;
+                    color: $heading_color;
                     font-weight: 400;
                     padding: 39px 19px;
                     font-weight: 400;
@@ -38,14 +38,14 @@
                         padding: 39px 15px;
                     }
                     display: block;
-                    font-size: 16px;
+                    font-size: 14px;
                     @include transition(.3s);
                     text-transform: capitalize;
                    
                 }
                 &:hover{
                     & > a{
-                        color:$theme-color;
+                        color:$heading-color
                     }
                 }
             }
@@ -112,7 +112,7 @@
 }
  
 .top-bg{
-	background:#002d5b;
+	background:$theme-color;
 }
 
 // header Sticky Responsive
