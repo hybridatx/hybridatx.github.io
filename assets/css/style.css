@@ -2766,6 +2766,7 @@ hr {
 
 .slider-area {
   margin-top: -1px;
+  min-height: 100vh;
 }
 .slider-area .hero__caption {
   position: relative;
@@ -2856,7 +2857,7 @@ hr {
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   text-transform: capitalize;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .hero__caption h1 {

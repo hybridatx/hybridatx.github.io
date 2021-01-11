@@ -78,6 +78,7 @@
 
 .slider-area{
     margin-top: -1px;
+    min-height: 100vh;
     .hero__caption{
        
         @media #{$xs}{
@@ -156,7 +157,7 @@
             font-family: $font_1;
             line-height: 1.2;
             text-transform: capitalize;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             @media #{$lg}{
                 font-size: 55px;
                 line-height: 1.2;
