@@ -2876,18 +2876,18 @@ hr {
     line-height: 1.4;
   }
 }
-.slider-area .hero__caption p {
+.slider-area .hero__caption .hero__p {
   margin-bottom: 54px;
   padding-right: 155px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .slider-area .hero__caption p {
+  .slider-area .hero__caption .hero__p {
     margin-bottom: 54px;
     padding-right: 0px;
   }
 }
 @media (max-width: 767px) {
-  .slider-area .hero__caption p {
+  .slider-area .hero__caption .hero__p {
     margin-bottom: 54px;
     padding-right: 0px;
   }
@@ -3153,6 +3153,7 @@ hr {
 
 .we-create-area {
   position: relative;
+  padding-bottom: 140px;
 }
 .we-create-area::before {
   background-image: url(../img/shape/we-create_bg.png);
