@@ -177,7 +177,7 @@ h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #1e0e4b;
+  color: #250e4b;
   margin-top: 0px;
   font-style: normal;
   font-weight: 500;
@@ -423,7 +423,7 @@ hr {
 
 /* button style */
 .btn {
-  background: #1e0e4b;
+  background: #9453e8;
   -moz-user-select: none;
   text-transform: capitalize;
   color: #fff;
@@ -2553,7 +2553,7 @@ hr {
   z-index: 1;
 }
 .main-header .main-menu ul li a {
-  color: #1e0e4b;
+  color: #250e4b;
   font-weight: 400;
   padding: 39px 19px;
   font-weight: 400;
@@ -2572,7 +2572,7 @@ hr {
   }
 }
 .main-header .main-menu ul li:hover > a {
-  color: #1e0e4b;
+  color: #250e4b;
 }
 .main-header .main-menu ul ul.submenu {
   position: absolute;
@@ -2853,7 +2853,7 @@ hr {
   font-size: 65px;
   font-weight: 700;
   margin-bottom: 14px;
-  color: #1e0e4b;
+  color: #250e4b;
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
   text-transform: capitalize;
@@ -2967,7 +2967,7 @@ hr {
   margin-bottom: 20;
 }
 .section-tittle h2 {
-  color: #1e0e4b;
+  color: #250e4b;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -3245,7 +3245,7 @@ hr {
   }
 }
 .we-create-area .we-create-cap h3 {
-  color: #1e0e4b;
+  color: #250e4b;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.3;
@@ -3349,7 +3349,7 @@ hr {
   padding-left: 28px;
 }
 .generating-area .generating-cap h4 {
-  color: #1e0e4b;
+  color: #250e4b;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
@@ -3473,7 +3473,7 @@ hr {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 14px;
-  color: #1e0e4b;
+  color: #250e4b;
 }
 .choose-best .single-choose .do-caption ul li {
   color: #57667e;
@@ -3572,7 +3572,7 @@ hr {
   }
 }
 .visit-area .single-visited .visited-cap h3 a {
-  color: #1e0e4b;
+  color: #250e4b;
 }
 .visit-area .single-visited .visited-cap h3 a:hover {
   color: #9453e8;
@@ -3632,7 +3632,7 @@ hr {
   padding-right: 27px;
 }
 .tips-triks-area .single-tips .tips-caption h4 a {
-  color: #1e0e4b;
+  color: #250e4b;
 }
 .tips-triks-area .single-tips .tips-caption h4 a:hover {
   color: #9453e8;
@@ -3869,7 +3869,7 @@ hr {
   margin-left: 20px;
 }
 .testimonial-area .testimonial-main .testimonial-caption .testimonial-founder .founder-text span {
-  color: #2e1088;
+  color: #250e4b;
   font-size: 25px;
   font-weight: 600;
 }
@@ -3965,19 +3965,19 @@ hr {
   padding: 0;
 }
 .footer-area .footer-tittle h4 {
-  color: #1e0e4b;
+  color: #250e4b;
   font-size: 14px;
   margin-bottom: 28px;
   font-weight: 700;
   text-transform: capitalize;
 }
 .footer-area .footer-tittle ul li {
-  color: #1e0e4b;
+  color: #250e4b;
   margin-bottom: 15px;
   line-height: 14px;
 }
 .footer-area .footer-tittle ul li a {
-  color: #1e0e4b;
+  color: #250e4b;
   font-weight: 400;
   font-size: 14px;
 }
@@ -4055,7 +4055,7 @@ hr {
   }
 }
 .footer-bottom-area .footer-copy-right p {
-  color: #1e0e4b;
+  color: #250e4b;
   font-weight: 300;
   font-size: 14px;
   line-height: 2;
@@ -4510,7 +4510,7 @@ hr {
   color: #ff8b23;
 }
 .blog_details a:hover {
-  color: #1e0e4b;
+  color: #9453e8;
 }
 .blog_details h2 {
   font-size: 18px;
@@ -4908,7 +4908,7 @@ hr {
   display: inline-block;
 }
 .single-post-area .blog-author a:hover {
-  color: #1e0e4b;
+  color: #9453e8;
 }
 .single-post-area .blog-author p {
   margin-bottom: 0;
