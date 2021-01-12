@@ -3,6 +3,19 @@
 .choose-best{
     //shape // left shape
     position: relative;
+    & .container {
+        background: $section_bg;
+        padding-top: 50px;    
+    }
+
+    .section-tittle h2 {
+        margin-bottom: 20px;
+    }
+
+    .section-caption {
+        margin-bottom: 50px;
+    }
+
     &::before{
         background-image: url(../img/shape/choose_your.png);
         position: absolute;
@@ -88,6 +101,27 @@
                    
                 }
             }
+            .do-btn{
+                a{
+                    color: #c5ccd8;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: 500;
+                    @include transition(.3s);
+                    
+                    i{
+                        background: #c5ccd8;
+                        width: 24px;
+                        height: 24px;
+                        display: inline-block;
+                        line-height: 24px;
+                        color:#fff;
+                        border-radius: 50%; 
+                        margin-right: 7px;
+                        @include transition(.3s);
+                    }
+                }
+            }
         }
     }
 }
@@ -96,10 +130,10 @@
     box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
     border: 1px solid transparent;
     .do-btn a {
-        color: #7b40c0;
+        color: $theme_color;
         
         & i{
-            background:#7b40c0;
+            background:$theme_color;
         }
     }
 }
@@ -107,13 +141,12 @@
     box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
     border: 1px solid transparent;
     .do-btn a {
-        color: #7b40c0;
+        color: $theme_color;
 
         & i{
-            background:#7b40c0;
+            background:$theme_color;
         }
     }
 }
-
 
 // what we will do End

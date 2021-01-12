@@ -7,23 +7,22 @@ $black: #16161a;
 $gray:#f7f7fd;
 
 // font-color
-$heading-color:#2d2830;
+$heading-color:#1e0e4b;
 
 //Theme color
 $theme-color: #9453e8;
 $theme-color2: #ff5c97;
 $theme-color3: #f27420;
 $theme-color4: #ff3500;
-
 $body-text-color: #555;
 $hr-border-color:#eceff8;
 
 // btn and Section color
 
-$btn_bg: #9453e8;
+$btn_bg: $heading-color;
 
 $btn_hover: #dca73a;
-$section_bg: #f7f7f7;
+$section_bg: #f8f5fc;
 $section_bg_1: #454545;
 $heading_color2: #ff8b23;
 
@@ -43,8 +42,7 @@ $white_color:#fff;
 
 
 // font color
-$font_color1: #707b8e;
-
+$font_color1: #564a78;
 $border_color: #fdcb9e;
 $footer_bg: #303030;
 $sidebar_bg: #fbf9ff;
