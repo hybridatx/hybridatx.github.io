@@ -101,50 +101,28 @@
                    
                 }
             }
-            .do-btn{
-                a{
-                    color: $theme-color;
-                    text-transform: uppercase;
-                    font-size: 13px;
-                    font-weight: 500;
-                    @include transition(.3s);
-                    
-                    i{
-                        background: $theme-color;
-                        width: 24px;
-                        height: 24px;
-                        display: inline-block;
-                        line-height: 24px;
-                        color:$theme-color;
-                        border-radius: 50%; 
-                        margin-right: 7px;
-                        @include transition(.3s);
-                    }
-                }
-            }
         }
     }
 }
-// Hover
-.single-choose:hover {
-    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-    border: 1px solid transparent;
-    .do-btn a {
-        color: $theme_color;
-        
-        & i{
-            background:$theme_color;
-        }
-    }
-}
-.single-choose.active {
-    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-    border: 1px solid transparent;
-    .do-btn a {
-        color: $theme_color;
 
-        & i{
-            background:$theme_color;
+.do-btn{
+    a{
+        color: $theme-color;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        @include transition(.3s);
+        
+        i{
+            background: $theme-color;
+            width: 24px;
+            height: 24px;
+            display: inline-block;
+            line-height: 24px;
+            color:$theme-color;
+            border-radius: 50%; 
+            margin-right: 7px;
+            @include transition(.3s);
         }
     }
 }

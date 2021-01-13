@@ -3482,7 +3482,8 @@ hr {
 .choose-best .single-choose .do-caption ul li:last-child {
   margin-bottom: 0;
 }
-.choose-best .single-choose .do-caption .do-btn a {
+
+.do-btn a {
   color: #9453e8;
   text-transform: uppercase;
   font-size: 13px;
@@ -3493,7 +3494,7 @@ hr {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.choose-best .single-choose .do-caption .do-btn a i {
+.do-btn a i {
   background: #9453e8;
   width: 24px;
   height: 24px;
@@ -3507,28 +3508,6 @@ hr {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-}
-
-.single-choose:hover {
-  box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-  border: 1px solid transparent;
-}
-.single-choose:hover .do-btn a {
-  color: #9453e8;
-}
-.single-choose:hover .do-btn a i {
-  background: #9453e8;
-}
-
-.single-choose.active {
-  box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-  border: 1px solid transparent;
-}
-.single-choose.active .do-btn a {
-  color: #9453e8;
-}
-.single-choose.active .do-btn a i {
-  background: #9453e8;
 }
 
 .visit-area .single-visited .visited-img {
