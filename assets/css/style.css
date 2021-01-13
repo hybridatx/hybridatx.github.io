@@ -3484,6 +3484,13 @@ hr {
   margin-bottom: 0;
 }
 
+.do-links {
+  padding-bottom: 50px;
+}
+
+.do-btn {
+  padding-bottom: 10px;
+}
 .do-btn a {
   color: #9453e8;
   text-transform: uppercase;

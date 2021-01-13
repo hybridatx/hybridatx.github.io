@@ -105,8 +105,12 @@
         }
     }
 }
+.do-links {
+    padding-bottom: 50px;
+}
 
 .do-btn{
+    padding-bottom: 10px;
     a{
         color: $theme-color;
         text-transform: uppercase;
