@@ -103,19 +103,19 @@
             }
             .do-btn{
                 a{
-                    color: #c5ccd8;
+                    color: $theme-color;
                     text-transform: uppercase;
                     font-size: 13px;
                     font-weight: 500;
                     @include transition(.3s);
                     
                     i{
-                        background: #c5ccd8;
+                        background: $theme-color;
                         width: 24px;
                         height: 24px;
                         display: inline-block;
                         line-height: 24px;
-                        color:#fff;
+                        color:$theme-color;
                         border-radius: 50%; 
                         margin-right: 7px;
                         @include transition(.3s);
