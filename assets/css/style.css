@@ -3379,6 +3379,14 @@ hr {
   position: relative;
   padding-bottom: 100px;
 }
+.choose-best .we-create-img img {
+  width: 100%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .choose-best .we-create-img img {
+    padding-top: 30px;
+  }
+}
 .choose-best .container {
   background: #f8f5fc;
   padding-top: 50px;

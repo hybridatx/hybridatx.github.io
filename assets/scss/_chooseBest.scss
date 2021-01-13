@@ -1,6 +1,14 @@
 
 // what we will do start
 .choose-best{
+    .we-create-img{
+        img{
+            width: 100%;
+            @media #{$lg}{
+              padding-top: 30px;
+          }
+        }
+    }
     //shape // left shape
     position: relative;
     padding-bottom: 100px;
