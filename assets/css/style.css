@@ -3377,7 +3377,7 @@ hr {
 
 .choose-best {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 .choose-best .container {
   background: #f8f5fc;
@@ -3483,16 +3483,11 @@ hr {
 .choose-best .single-choose .do-caption ul li:last-child {
   margin-bottom: 0;
 }
-
-.do-links {
-  padding-bottom: 50px;
-}
-
-.do-btn {
+.choose-best .do-btn {
   padding-bottom: 10px;
   padding-left: 40px;
 }
-.do-btn a {
+.choose-best .do-btn a {
   color: #9453e8;
   text-transform: uppercase;
   font-size: 13px;
@@ -3503,7 +3498,7 @@ hr {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
-.do-btn a i {
+.choose-best .do-btn a i {
   background: #9453e8;
   width: 24px;
   height: 24px;
@@ -3517,6 +3512,10 @@ hr {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+
+.do-links {
+  padding-bottom: 50px;
 }
 
 .visit-area .single-visited .visited-img {
