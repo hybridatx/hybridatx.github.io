@@ -1,0 +1,52 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/01/2021 00:50
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-medal:before { content: "\f100"; }
+.flaticon-mint:before { content: "\f101"; }
+.flaticon-rose:before { content: "\f102"; }
+.flaticon-frost:before { content: "\f103"; }
+.flaticon-smoke:before { content: "\f104"; }
+.flaticon-fire:before { content: "\f105"; }
+    
+    $font-Flaticon-medal: "\f100";
+    $font-Flaticon-mint: "\f101";
+    $font-Flaticon-rose: "\f102";
+    $font-Flaticon-frost: "\f103";
+    $font-Flaticon-smoke: "\f104";
+    $font-Flaticon-fire: "\f105";
