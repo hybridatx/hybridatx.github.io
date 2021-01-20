@@ -1,16 +1,16 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 03/02/2020 09:43
+  	Creation date: 17/01/2021 00:50
   	*/
 
 @font-face {
   font-family: "Flaticon";
-  src: url("../fonts/Flaticon.eot");
-  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/Flaticon.woff2") format("woff2"),
-       url("../fonts/Flaticon.woff") format("woff"),
-       url("../fonts/Flaticon.ttf") format("truetype"),
-       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  src: url("./../fonts/font/flaticon.eot");
+  src: url("./../fonts/font/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./../fonts/font/flaticon.woff2") format("woff2"),
+       url("./../fonts/font/flaticon.woff") format("woff"),
+       url("./../fonts/font/flaticon.ttf") format("truetype"),
+       url("./../fonts/font/flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -18,22 +18,20 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+    src: url("./../fonts/font/flaticon.svg#Flaticon") format("svg");
   }
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-font-family: Flaticon;
-
+  font-family: Flaticon;
+        font-size: 60px;
+font-style: normal;
 }
 
-.flaticon-chart:before { content: "\f100"; }
-.flaticon-speaker:before { content: "\f101"; }
-.flaticon-growth:before { content: "\f102"; }
-.flaticon-social-media-marketing:before { content: "\f103"; }
-.flaticon-tasks:before { content: "\f104"; }
-.flaticon-project:before { content: "\f105"; }
-.flaticon-award:before { content: "\f106"; }
-.flaticon-quote:before { content: "\f107"; }
-.flaticon-quote-1:before { content: "\f108"; }
+.flaticon-medal:before { content: "\f100"; }
+.flaticon-mint:before { content: "\f101"; }
+.flaticon-rose:before { content: "\f102"; }
+.flaticon-frost:before { content: "\f103"; }
+.flaticon-smoke:before { content: "\f104"; }
+.flaticon-fire:before { content: "\f105"; }
