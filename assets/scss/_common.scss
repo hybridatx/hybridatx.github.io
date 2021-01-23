@@ -34,18 +34,6 @@ p {
 	font-weight: normal;
 }
 
-// background-image
-.bg-img-1{
-    background-image: url(../img/slider/slider-img-1.jpg);
-}
-.bg-img-2{
-    background-image: url(../img/background-img/bg-img-2.jpg);
-}
-.cta-bg-1{
-    background-image: url(../img/background-img/bg-img-3.jpg);
-
-}
-
 .img {
 	max-width: 100%;
 	@include transition(.3s);
@@ -557,6 +545,7 @@ hr {
 	animation-name: float-bob;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 	/* animation-timing-function: linear; */
 	-moz-animation-name: float-bob;
 	-moz-animation-duration: 2s;
@@ -571,7 +560,22 @@ hr {
 	-o-animation-iteration-count: infinite;
 	-o-animation-timing-function: linear;
 	}
-  @-webkit-keyframes float-bob {
+	@keyframes float-bob {
+		0% {
+				-webkit-transform: translateY(-20px);
+				transform: translateY(-20px); }
+		50% {
+				-webkit-transform: translateY(-10px);
+				transform: translateY(-10px); }
+		100% {
+				-webkit-transform: translateY(-20px);
+				transform: translateY(-20px); } }
+				
+	/* heartbeat */
+		.heartbeat {
+			animation: heartbeat 1s infinite alternate;
+		}
+ @-webkit-keyframes float-bob {
 	0% {
 	  -webkit-transform: translateY(-20px);
 	  transform: translateY(-20px); }
@@ -585,6 +589,13 @@ hr {
 /* heartbeat */
 	.heartbeat {
 		animation: heartbeat 1s infinite alternate;
+	}
+
+	@keyframes heartbeat {
+		to {
+			-webkit-transform: scale(1.03);
+			transform: scale(1.03);
+		}
 	}
 
 	@-webkit-keyframes heartbeat {

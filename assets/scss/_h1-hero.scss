@@ -76,9 +76,8 @@
 
 .slider-area{
     margin-top: -1px;
-    min-height: 100vh;
+    min-height: 700px;
     .hero__caption{
-       
         @media #{$xs}{
             padding-top: 17px;
         }
@@ -111,6 +110,12 @@
             }
             // bonce
             animation: heartbeat 1s infinite alternate;
+            @keyframes heartbeat {
+                to {
+                    -webkit-transform: scale(1.5);
+                    transform: scale(1.5);
+                }
+            }
             @-webkit-keyframes heartbeat {
                 to {
                     -webkit-transform: scale(1.5);
@@ -206,14 +211,46 @@
     }
 }
 
-.slider-height2{
-    min-height: 300px;
-    background-repeat:no-repeat ;
-    background-position: center center;
-    @media #{$xs}{
-        min-height: 260px;
+//orientation page
+
+.orientation {
+    background-color: $section_bg;
+    .we-create-area {
+        padding-bottom: 50px !important;
+    }
+    .slider-area {
+        margin-top: 110px;
+        min-height: 400px;
+        z-index: -1;
+    }
+    .hero__p {
+        margin-bottom: 0 !important;
+        padding-right: 0 !important;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .hero__caption h1 {
+        font-size: 50px;
+    }
+    .slider-height2 {
+        min-height: 200px;
+        background-repeat:no-repeat ;
+        background-position: center center;
+        @media #{$xs} {
+            min-height: 260px;
+        }
+    }
+    &.create-padding {
+        padding-bottom: 0 !important;
+        margin-bottom: 50px;
+    }
+    &.member-benefits {
+        background-color: $section_bg_2;
     }
 }
+
+
 // services page
 .services-area{
     padding-top: 270px;

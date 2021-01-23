@@ -4,7 +4,7 @@
         position: relative;
         &::before{
             position: absolute;
-            content: '\f107';
+            content: '\f106';
             font-family: Flaticon;
             font-style: normal;
             font-size: 86px;
@@ -12,7 +12,6 @@
             left: 0;
             top: 96px;
             color:#e3def0; 
-            transform: rotate(180deg);
             @include transition(.4s);
             @media #{$md}{
                 display: none;
@@ -27,7 +26,7 @@
         }
         &::after{
             position: absolute;
-            content: '\f107';
+            content: '\f106';
             font-family: Flaticon;
             font-style: normal;
             font-size: 86px;
@@ -35,6 +34,7 @@
             right: 0;
             bottom: 0;
             color:#e3def0;
+            transform: rotate(180deg);
             @include transition(.4s);
             @media #{$md}{
                 display: none;

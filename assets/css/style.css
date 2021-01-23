@@ -5357,10 +5357,10 @@ hr {
 }
 
 .haveAproject::before {
-  background-image: linear-gradient(0.25turn, #ff5c98 0%, #7b40c0 100%);
-  background-image: -moz-linear-gradient(0.25turn, #ff5c98 0%, #7b40c0 100%);
-  background-image: -webkit-linear-gradient(0.25turn, #ff5c98 0%, #7b40c0 100%);
-  background-image: -ms-linear-gradient(0.25turn, #ff5c98 0%, #7b40c0 100%);
+  background-image: linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+  background-image: -moz-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+  background-image: -webkit-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
+  background-image: -ms-linear-gradient(0deg, #ff5c98 0%, #7b40c0 100%);
 }
 
 .sample-text-area {

@@ -422,20 +422,56 @@ del {
 }
 
 .unordered-list {
+    h5 {
+        font-family:$font_2;
+        font-weight: 600;
+        font-size: 14px;
+        color: $font_color1;
+        margin-bottom: 10px;
+    }
     li {
         position: relative;
-        padding-left: 30px;
-        line-height: 1.82em !important;
+        padding-left: 20px;
+        font-family:$font_2;
+        color: $font_color1;
+        margin-left: 10px;
+    
+        font-size: 14px;
+        line-height: 30px;
         &:before {
             content: "";
             position: absolute;
-            width: 14px;
-            height: 14px;
-            border: 3px solid $primary;
-            background: $white;
-            top: 4px;
+            width: 8px;
+            height: 8px;
+            background: $theme-color;
+            top: 12px;
             left: 0;
             border-radius: 50%;
+        }
+        &:last-of-type {
+            margin-bottom: 30px;
+        }
+    }
+    &--check {
+        li {
+            &:before {
+                border: 2px $theme-color solid;
+                background: white;
+            }
+        }
+    }
+    &--svg {
+        list-style: none;
+        margin: auto;
+        li {
+            margin-bottom: 20px;
+            &:before {
+                content: none;
+            }
+        }
+        & img {
+            width: 50px;
+            height: 50px;
         }
     }
 }
