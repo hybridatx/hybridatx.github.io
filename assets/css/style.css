@@ -3366,13 +3366,13 @@ hr {
 .we-create-area .timeline-p {
   padding-left: 60px;
 }
-.we-create-area .fa {
+.we-create-area .fa, .we-create-area .fas, .we-create-area .fab {
   width: 40px;
   height: 40px;
   background-color: #9453e8;
   border-radius: 50%;
 }
-.we-create-area .fa:before {
+.we-create-area .fa:before, .we-create-area .fas:before, .we-create-area .fab:before {
   color: #fff;
   font-size: 20px;
   top: 9px;
