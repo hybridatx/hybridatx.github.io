@@ -2585,6 +2585,9 @@ hr {
     padding: 39px 15px;
   }
 }
+.main-header .main-menu ul li .nav-heading:hover {
+  cursor: default;
+}
 .main-header .main-menu ul li:hover > a {
   color: #250e4b;
 }

@@ -42,6 +42,9 @@
                     @include transition(.3s);
                     text-transform: capitalize;
                 }
+                & .nav-heading:hover {
+                    cursor: default;
+                }
                 &:hover{
                     & > a{
                         color:$heading-color
