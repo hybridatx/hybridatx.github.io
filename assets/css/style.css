@@ -3299,6 +3299,9 @@ hr {
     padding: 2em 0 2em;
   }
 }
+.we-create-area .we-create-img--max {
+  max-width: 400px;
+}
 .we-create-area .we-create-cap p {
   padding-right: 20px;
   margin-bottom: 40px;
@@ -6418,7 +6421,7 @@ del {
   margin-bottom: 50px;
 }
 .orientation.member-benefits {
-  background-color: rgba(78, 190, 255, 0.1);
+  background-color: rgba(78, 83, 255, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */
