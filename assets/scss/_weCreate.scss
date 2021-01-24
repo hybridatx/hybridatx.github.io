@@ -112,7 +112,7 @@
         position: absolute;
         left: 19px;
         width: 2px;
-        height: 100%;
+        height: 84%;
         z-index: -1;
     }
     .timeline-p {
@@ -128,6 +128,25 @@
             font-size: 20px;
             top: 9px;
             position: relative;
+        }
+    }
+    .fa-apple-alt:before {
+        left: 11px;
+    }
+    .fa-gamepad:before {
+        top: 11px;
+        left: 8px;
+    }
+    .fa-heart:before {
+        top: 11.4px;
+        position: relative;
+        left: 10.4px;
+    }
+    .fa-hands-helping {
+        &:before {
+            top: 11px;
+            position: relative;
+            left: 8px;            
         }
     }
     .fa-users {
