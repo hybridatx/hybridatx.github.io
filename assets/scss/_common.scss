@@ -880,7 +880,7 @@ hr {
 	.create-padding{
 		padding-bottom: 100px;
 		@media #{$laptop}{
-			padding-bottom: 50px;
+			padding-bottom: 100px;
 		}
 		@media #{$lg}{
 			padding-bottom: 50px;
