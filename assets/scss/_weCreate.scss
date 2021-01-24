@@ -80,13 +80,11 @@
     }
   }
     .we-create-cap {
-
         p {
-            padding-right: 50px;
-            margin-bottom: 56px;
+            padding-right: 20px;
+            margin-bottom: 40px;
             @media #{$lg}{
                 padding-right: 10px;
-              
             }
             @media #{$md}{
                 padding-right: 10px;
