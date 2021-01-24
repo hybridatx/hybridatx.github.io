@@ -232,11 +232,45 @@ h6 {
   text-transform: normal;
 }
 
+h3 {
+  color: #250e4b;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h3 {
+    font-size: 29px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  h3 {
+    font-size: 36px;
+    line-height: 1.3;
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 30px;
+    line-height: 1.3;
+    padding-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
 p {
   font-family: "Poppins", sans-serif;
   color: #564a78;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 28px;
   margin-bottom: 15px;
   font-weight: normal;
 }
@@ -2331,27 +2365,27 @@ hr {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .create-padding {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .create-padding {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .create-padding {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .create-padding {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 767px) {
   .create-padding {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -2933,44 +2967,6 @@ hr {
   text-transform: capitalize;
 }
 
-.orientation {
-  background-color: rgba(78, 83, 255, 0.1);
-}
-.orientation .we-create-area {
-  padding-bottom: 50px !important;
-}
-.orientation .slider-area {
-  margin-top: 110px;
-  min-height: 400px;
-  z-index: -1;
-}
-.orientation .hero__p {
-  margin-bottom: 0 !important;
-  padding-right: 0 !important;
-  font-size: 16px;
-  margin: auto;
-}
-.orientation .hero__caption h1 {
-  font-size: 50px;
-}
-.orientation .slider-height2 {
-  min-height: 200px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-@media (max-width: 767px) {
-  .orientation .slider-height2 {
-    min-height: 260px;
-  }
-}
-.orientation.create-padding {
-  padding-bottom: 0 !important;
-  margin-bottom: 50px;
-}
-.orientation.member-benefits {
-  background-color: rgba(78, 190, 255, 0.1);
-}
-
 .services-area {
   padding-top: 270px;
 }
@@ -3217,7 +3213,6 @@ hr {
 
 .we-create-area {
   position: relative;
-  padding-bottom: 140px;
 }
 .we-create-area::before {
   background-image: url(../img/shape/we-create_bg.png);
@@ -3289,41 +3284,19 @@ hr {
 .we-create-area .we-create-img img {
   width: 100%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 767px) {
   .we-create-area .we-create-img img {
-    padding-top: 30px;
-  }
-}
-.we-create-area .we-create-cap h3 {
-  color: #250e4b;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 30px;
-  padding-right: 25px;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .we-create-area .we-create-cap h3 {
-    font-size: 29px;
+    padding: 2em 0 2em;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .we-create-area .we-create-cap h3 {
-    font-size: 42px;
+  .we-create-area .we-create-img img {
+    padding: 2em 0 2em;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .we-create-area .we-create-cap h3 {
-    font-size: 36px;
-    line-height: 1.3;
-    padding-right: 0px;
-  }
-}
-@media (max-width: 767px) {
-  .we-create-area .we-create-cap h3 {
-    font-size: 25px;
-    line-height: 1.3;
-    padding-right: 0px;
+  .we-create-area .we-create-img img {
+    padding: 2em 0 2em;
   }
 }
 .we-create-area .we-create-cap p {
@@ -3478,9 +3451,6 @@ hr {
 .choose-best .container {
   background: rgba(78, 83, 255, 0.1);
   padding-top: 100px;
-}
-.choose-best .section-tittle h2 {
-  margin-bottom: 20px;
 }
 .choose-best .section-caption {
   margin-bottom: 20px;
@@ -4035,6 +4005,11 @@ hr {
   outline: 0;
 }
 
+@media (max-width: 767px) {
+  .footer-area {
+    text-align: center;
+  }
+}
 .footer-area .footer-logo {
   margin-bottom: 30px;
 }
@@ -6384,6 +6359,49 @@ del {
 
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+.orientation-requirements .we-create-cap li, .orientation-requirements .we-create-cap p {
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.orientation {
+  background-color: rgba(78, 83, 255, 0.1);
+}
+.orientation .we-create-area {
+  padding-bottom: 50px !important;
+}
+.orientation .slider-area {
+  margin-top: 100px;
+  min-height: 400px;
+  z-index: -1;
+}
+.orientation .hero__p {
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+  font-size: 16px;
+  margin: auto;
+}
+.orientation .hero__caption h1 {
+  font-size: 50px;
+}
+.orientation .slider-height2 {
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media (max-width: 767px) {
+  .orientation .slider-height2 {
+    min-height: 260px;
+  }
+}
+.orientation.create-padding {
+  padding-bottom: 0 !important;
+  margin-bottom: 50px;
+}
+.orientation.member-benefits {
+  background-color: rgba(78, 190, 255, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */

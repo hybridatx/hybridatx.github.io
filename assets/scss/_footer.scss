@@ -1,4 +1,7 @@
 .footer-area{
+    @media #{$xs}{
+        text-align: center;
+    }
 
     .footer-logo{
         margin-bottom:30px;

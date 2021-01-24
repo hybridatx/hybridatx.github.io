@@ -1,0 +1,48 @@
+.orientation {
+  &-requirements {
+    .we-create-cap {
+      li, p {
+        font-size: 13px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+//hero 
+.orientation {
+  background-color: $section_bg;
+  .we-create-area {
+      padding-bottom: 50px !important;
+  }
+  .slider-area {
+      margin-top: 100px;
+      min-height: 400px;
+      z-index: -1;
+  }
+  .hero__p {
+      margin-bottom: 0 !important;
+      padding-right: 0 !important;
+      font-size: 16px;
+      margin: auto;
+  }
+
+  .hero__caption h1 {
+      font-size: 50px;
+  }
+  .slider-height2 {
+      min-height: 200px;
+      background-repeat:no-repeat ;
+      background-position: center center;
+      @media #{$xs} {
+          min-height: 260px;
+      }
+  }
+  &.create-padding {
+      padding-bottom: 0 !important;
+      margin-bottom: 50px;
+  }
+  &.member-benefits {
+      background-color: $section_bg_2;
+  }
+}
