@@ -652,6 +652,39 @@ hr {
   color: red;
 }
 
+.do-btn {
+  padding-bottom: 10px;
+}
+.do-btn:nth-of-type(even) {
+  padding-left: 40px;
+}
+.do-btn a {
+  color: #9453e8;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.do-btn a i {
+  background: #9453e8;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 7px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
 /* button style */
 .breadcrumb > .active {
   color: #888;
@@ -3568,42 +3601,6 @@ hr {
 }
 .choose-best .single-choose .do-caption ul li:last-child {
   margin-bottom: 0;
-}
-.choose-best .do-btn {
-  padding-bottom: 10px;
-}
-.choose-best .do-btn:last-of-type {
-  padding-left: 40px;
-}
-.choose-best .do-btn a {
-  color: #9453e8;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.choose-best .do-btn a i {
-  background: #9453e8;
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  line-height: 24px;
-  color: #fff;
-  border-radius: 50%;
-  margin-right: 7px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-.do-links {
-  padding-bottom: 100px;
 }
 
 .visit-area .single-visited .visited-img {

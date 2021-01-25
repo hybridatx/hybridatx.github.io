@@ -147,6 +147,8 @@
 }
 .ti-arrow-right:before {
 	content: "\e628";
+	position: relative;
+	left: 5px;
 }
 .ti-arrow-left:before {
 	content: "\e629";

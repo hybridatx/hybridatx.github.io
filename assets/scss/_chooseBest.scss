@@ -108,34 +108,6 @@
             }
         }
     }
-    .do-btn{
-        padding-bottom: 10px;
-        &:last-of-type {
-            padding-left: 40px;
-        }
-        a{
-            color: $theme-color;
-            text-transform: uppercase;
-            font-size: 13px;
-            font-weight: 500;
-            @include transition(.3s);
-            
-            i{
-                background: $theme-color;
-                width: 24px;
-                height: 24px;
-                display: inline-block;
-                line-height: 24px;
-                color: #fff;
-                border-radius: 50%; 
-                margin-right: 7px;
-                @include transition(.3s);
-            }
-        }
-    }
-}
-.do-links {
-    padding-bottom: 100px;
 }
 
 // what we will do End
