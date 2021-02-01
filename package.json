@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "handlebars": "^4.7.6",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "serve": "^11.3.2"
   }
 }

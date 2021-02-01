@@ -22,6 +22,13 @@
         }
 
     }
+    &--max {
+        max-width: 450px;
+        margin: auto;
+        @media #{$sm}{
+			max-width: 300px;
+		}
+    }
     & h2 {
         color: $heading_color;
         font-size: $heading_size;
@@ -45,6 +52,9 @@
 
 // what we will do start
 .what-we-do{
+    .ti-arrow-right:before {
+        left: 0;
+    }
     //shape // left shape
     position: relative;
     &::before{
@@ -62,7 +72,7 @@
         @media #{$md}{
 			display: none;
         } 
-         @media #{$sm}{
+        @media #{$sm}{
 			display: none;
 		}
         @media #{$xs}{
@@ -102,15 +112,12 @@
         @media #{$lg}{
 			padding: 41px 17px 63px;
         }
-         @media #{$md}{
-			padding: 41px 17px 63px;
+        @media #{$md}{
+			padding: 41px 60px 63px;
         }
-        @media #{$sm}{
-			padding: 41px 17px 63px;
-        } 
         @media #{$xs}{
-			padding: 41px 17px 63px;
-		}
+            box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+        }
 
        
         border-radius: 6px;
@@ -134,7 +141,6 @@
             p{
                 margin-bottom: 40px;
                 // padding: 0 40px;
-                @media #{$xs}{ }
             }
         }
         .do-btn{
@@ -144,6 +150,10 @@
                 font-size: 13px;
                 font-weight: 500;
                 @include transition(.3s);
+
+                @media #{$xs}{
+                    color: $theme-color;
+                }
                 
                 i{
                     background: #c5ccd8;
@@ -155,6 +165,10 @@
                     border-radius: 50%; 
                     margin-right: 7px;
                     @include transition(.3s);
+
+                    @media #{$xs}{
+                        background:$theme-color;
+                    }
                 }
             }
         }
@@ -171,16 +185,15 @@
         }
     }
 }
-.single-do.active {
+.single-do {
+    &.active {
     box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
-    .do-btn a {
-        color: $theme-color;
+        .do-btn a {
+            color: $theme-color;
 
-        & i{
-            background:$theme-color;
+            & i{
+                background:$theme-color;
+            }
         }
     }
 }
-
-
-// what we will do End

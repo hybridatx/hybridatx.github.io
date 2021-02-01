@@ -3045,6 +3045,15 @@ hr {
   line-height: 1;
   margin-bottom: 20;
 }
+.section-tittle--max {
+  max-width: 450px;
+  margin: auto;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .section-tittle--max {
+    max-width: 300px;
+  }
+}
 .section-tittle h2 {
   color: #250e4b;
   font-size: 32px;
@@ -3073,6 +3082,9 @@ hr {
 
 .what-we-do {
   position: relative;
+}
+.what-we-do .ti-arrow-right:before {
+  left: 0;
 }
 .what-we-do::before {
   background-image: url(../img/shape/what_do.png);
@@ -3152,17 +3164,12 @@ hr {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .what-we-do .single-do {
-    padding: 41px 17px 63px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .what-we-do .single-do {
-    padding: 41px 17px 63px;
+    padding: 41px 60px 63px;
   }
 }
 @media (max-width: 767px) {
   .what-we-do .single-do {
-    padding: 41px 17px 63px;
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
   }
 }
 .what-we-do .single-do .do-icon span {
@@ -3195,6 +3202,11 @@ hr {
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+@media (max-width: 767px) {
+  .what-we-do .single-do .do-btn a {
+    color: #9453e8;
+  }
+}
 .what-we-do .single-do .do-btn a i {
   background: #c5ccd8;
   width: 24px;
@@ -3209,6 +3221,11 @@ hr {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+@media (max-width: 767px) {
+  .what-we-do .single-do .do-btn a i {
+    background: #9453e8;
+  }
 }
 
 .single-do:hover {
@@ -3232,7 +3249,6 @@ hr {
 }
 
 .newsletter h3 {
-  color: #2d2830;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.3;
@@ -3503,7 +3519,8 @@ hr {
 }
 .choose-best .container {
   background: rgba(78, 83, 255, 0.1);
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .choose-best .section-caption {
   margin-bottom: 20px;
@@ -3746,14 +3763,9 @@ hr {
     padding: 42px 69px 36px 57px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .haveAproject {
-    padding: 42px 19px 36px 40px;
-  }
-}
 @media (max-width: 767px) {
   .haveAproject {
-    padding: 42px 19px 36px 40px;
+    text-align: center;
   }
 }
 .haveAproject::before {
@@ -3814,14 +3826,9 @@ hr {
     float: left;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .haveAproject .wantToWork-btn {
-    float: left;
-  }
-}
 @media (max-width: 767px) {
   .haveAproject .wantToWork-btn {
-    float: left;
+    float: none;
   }
 }
 
