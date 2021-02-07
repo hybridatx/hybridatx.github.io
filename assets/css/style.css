@@ -3148,6 +3148,44 @@ hr {
     display: none;
   }
 }
+.what-we-do .single-do-link {
+  color: #c5ccd8;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+@media (max-width: 767px) {
+  .what-we-do .single-do-link {
+    color: #9453e8;
+  }
+}
+.what-we-do .single-do-link .do-btn {
+  text-transform: uppercase;
+}
+.what-we-do .single-do-link i {
+  background: #c5ccd8;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 7px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+@media (max-width: 767px) {
+  .what-we-do .single-do-link i {
+    background: #9453e8;
+  }
+}
 .what-we-do .single-do {
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -3191,50 +3229,14 @@ hr {
 .what-we-do .single-do .do-caption p {
   margin-bottom: 40px;
 }
-.what-we-do .single-do .do-btn a {
-  color: #c5ccd8;
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 500;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-@media (max-width: 767px) {
-  .what-we-do .single-do .do-btn a {
-    color: #9453e8;
-  }
-}
-.what-we-do .single-do .do-btn a i {
-  background: #c5ccd8;
-  width: 24px;
-  height: 24px;
-  display: inline-block;
-  line-height: 24px;
-  color: #fff;
-  border-radius: 50%;
-  margin-right: 7px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-@media (max-width: 767px) {
-  .what-we-do .single-do .do-btn a i {
-    background: #9453e8;
-  }
-}
 
 .single-do:hover {
   box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
 }
-.single-do:hover .do-btn a {
+.single-do:hover a {
   color: #9453e8;
 }
-.single-do:hover .do-btn a i {
+.single-do:hover a i {
   background: #9453e8;
 }
 
