@@ -153,4 +153,15 @@
   }
 }
 
+.newsletter {
+  @media #{$md}{
+    text-align: center;
+  }
+  @media #{$sm}{
+    text-align: center;
+  }
+  @media #{$xs}{
+    text-align: center;
+ }
+}
 

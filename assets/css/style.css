@@ -5341,6 +5341,22 @@ hr {
   background-color: #ff5c97;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .newsletter {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .newsletter {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .newsletter {
+    text-align: center;
+  }
+}
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
