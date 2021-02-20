@@ -1,27 +1,5 @@
 // section Tittle
 .section-tittle{
-    span {
-        color:#2b4b80;
-        font-size: 16px;
-        font-weight: 700;
-        display: inline-block;
-        position: relative;
-        margin-bottom: 16px;
-        &::before{
-            position: absolute;
-            width: 45px;
-            height: 2px;
-            content: "";
-            background:#2b4b80;
-            left: -60px;
-            bottom: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            line-height: 1;
-            margin-bottom: 20
-        }
-
-    }
     &--max {
         max-width: 450px;
         margin: auto;
