@@ -75,6 +75,9 @@
 }
 
 .slider-area{
+    .row {
+        padding-left: 50px;
+    }
     margin-top: -1px;
     min-height: 700px;
     .hero__caption{
@@ -152,7 +155,7 @@
             }
         }
         & h1 {
-            font-size: 65px;
+            font-size: 50px;
             font-weight: 700;
             margin-bottom: 14px;
             color: $heading-color;
@@ -188,17 +191,11 @@
         }
     }
     .hero__img img {
-        max-width: 584px;
+        max-width: 500px;
         max-height: 607px;
         @media #{$lg}{
             max-width: 386px;
 		}
-    }
-
-    &--coming-soon {
-        & h1 {
-            font-size: 50px !important;
-        }
     }
 
 }

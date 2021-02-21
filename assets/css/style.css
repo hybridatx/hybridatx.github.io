@@ -2887,6 +2887,9 @@ hr {
   margin-top: -1px;
   min-height: 700px;
 }
+.slider-area .row {
+  padding-left: 50px;
+}
 .slider-area .hero__caption {
   position: relative;
 }
@@ -2975,7 +2978,7 @@ hr {
   }
 }
 .slider-area .hero__caption h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 14px;
   color: #250e4b;
@@ -3019,16 +3022,13 @@ hr {
   }
 }
 .slider-area .hero__img img {
-  max-width: 584px;
+  max-width: 500px;
   max-height: 607px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-area .hero__img img {
     max-width: 386px;
   }
-}
-.slider-area--coming-soon h1 {
-  font-size: 50px !important;
 }
 
 .slider-area .hero-cap h2 {
