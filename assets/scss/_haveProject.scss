@@ -57,6 +57,12 @@
         @media #{$md}{
             float: left;
         }
+        @media #{$md}{
+            float: none;
+        }
+        @media #{$sm}{
+            float: none;
+        }
         @media #{$xs}{
             float: none;
         }

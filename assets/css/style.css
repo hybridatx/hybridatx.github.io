@@ -292,6 +292,10 @@ h3 {
   }
 }
 
+h6 {
+  font-weight: 800;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   color: #564a78;
@@ -2623,6 +2627,11 @@ hr {
   }
 }
 
+.side-img--max {
+  max-width: 400px;
+  margin: auto;
+}
+
 .header-transparrent {
   position: absolute;
   top: 0;
@@ -3330,10 +3339,6 @@ hr {
     padding: 2em 0 2em;
   }
 }
-.we-create-area .we-create-img--max {
-  max-width: 400px;
-  margin: auto;
-}
 .we-create-area .we-create-cap p {
   padding-right: 20px;
   margin-bottom: 40px;
@@ -3807,6 +3812,16 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .haveAproject .wantToWork-btn {
     float: left;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .haveAproject .wantToWork-btn {
+    float: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .haveAproject .wantToWork-btn {
+    float: none;
   }
 }
 @media (max-width: 767px) {

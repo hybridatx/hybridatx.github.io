@@ -70,6 +70,11 @@ h3 {
 			margin-bottom: 20px;
 	}
 }
+
+h6 {
+	font-weight: 800;
+}
+
 p {
 	font-family:$font_2;
 	color: $font_color1;
@@ -1067,3 +1072,8 @@ hr {
 			padding-bottom: 0px;
 		}
 	}
+
+.side-img--max {
+		max-width: 400px;
+		margin: auto;
+}
