@@ -3027,6 +3027,9 @@ hr {
     max-width: 386px;
   }
 }
+.slider-area--coming-soon h1 {
+  font-size: 50px !important;
+}
 
 .slider-area .hero-cap h2 {
   color: #fff;
