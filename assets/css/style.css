@@ -3195,6 +3195,12 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .what-we-do .single-do {
     padding: 41px 60px 63px;
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .what-we-do .single-do {
+    box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);
   }
 }
 @media (max-width: 767px) {
@@ -3820,16 +3826,19 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .haveAproject .wantToWork-btn {
     float: none;
+    padding-top: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .haveAproject .wantToWork-btn {
     float: none;
+    padding-top: 20px;
   }
 }
 @media (max-width: 767px) {
   .haveAproject .wantToWork-btn {
     float: none;
+    padding-top: 20px;
   }
 }
 

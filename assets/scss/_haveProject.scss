@@ -59,12 +59,15 @@
         }
         @media #{$md}{
             float: none;
+            padding-top: 20px;
         }
         @media #{$sm}{
             float: none;
+            padding-top: 20px;
         }
         @media #{$xs}{
             float: none;
+            padding-top: 20px;
         }
     }
 } 
