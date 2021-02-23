@@ -9,3 +9,6 @@ pug templates/camps/index.pug -o ./camps
 
 #Compile SASS
 sass assets/scss/styles.scss assets/css/style.css
+
+#Serve locally
+npx serve
