@@ -78,6 +78,15 @@
     &--padding {
         .row {
             padding-left: 50px;
+            @media #{$md}{
+                padding-left: 0;
+            }
+            @media #{$sm}{
+                padding-left: 0;
+            }
+            @media #{$xs}{
+                padding-left: 0;
+            }
         }
     }
     &--coming-soon {

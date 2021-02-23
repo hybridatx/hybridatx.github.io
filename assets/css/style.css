@@ -2894,6 +2894,21 @@ hr {
 .slider-area--padding .row {
   padding-left: 50px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area--padding .row {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area--padding .row {
+    padding-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .slider-area--padding .row {
+    padding-left: 0;
+  }
+}
 .slider-area--coming-soon {
   min-height: 600px !important;
 }
