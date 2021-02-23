@@ -75,6 +75,15 @@
 }
 
 .slider-area {
+    @media #{$md}{
+        min-height: 650px;
+    }
+    @media #{$sm}{
+        min-height: 650px;
+    }
+    @media #{$xs}{
+        min-height: 650px;
+    }
     &--padding {
         .row {
             padding-left: 50px;

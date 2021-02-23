@@ -2891,6 +2891,21 @@ hr {
   margin-top: -1px;
   min-height: 700px;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area {
+    min-height: 650px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area {
+    min-height: 650px;
+  }
+}
+@media (max-width: 767px) {
+  .slider-area {
+    min-height: 650px;
+  }
+}
 .slider-area--padding .row {
   padding-left: 50px;
 }
