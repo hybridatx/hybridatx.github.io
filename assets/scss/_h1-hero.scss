@@ -74,9 +74,14 @@
     }
 }
 
-.slider-area{
-    .row {
-        padding-left: 50px;
+.slider-area {
+    &--padding {
+        .row {
+            padding-left: 50px;
+        }
+    }
+    &--coming-soon {
+        min-height: 600px !important;
     }
     margin-top: -1px;
     min-height: 700px;

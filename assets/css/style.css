@@ -2887,8 +2887,11 @@ hr {
   margin-top: -1px;
   min-height: 700px;
 }
-.slider-area .row {
+.slider-area--padding .row {
   padding-left: 50px;
+}
+.slider-area--coming-soon {
+  min-height: 600px !important;
 }
 .slider-area .hero__caption {
   position: relative;
