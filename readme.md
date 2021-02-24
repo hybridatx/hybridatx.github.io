@@ -1,18 +1,18 @@
 ### Compile pug
 
-`pug templates/index.pug -o ./`
+pug templates/index.pug -o ./
 
-`pug templates/member-benefits/index.pug -o ./member-benefits/`
+pug templates/member-benefits/index.pug -o ./member-benefits/
 
-`pug templates/orientation/index.pug -o ./orientation`
+pug templates/orientation/index.pug -o ./orientation
 
-`pug templates/terms-of-use/index.pug -o ./terms-of-use`
+pug templates/terms-of-use/index.pug -o ./terms-of-use
 
-`pug templates/privacy-policy/index.pug -o ./privacy-policy`
+pug templates/privacy-policy/index.pug -o ./privacy-policy
 
-`pug templates/hybrid-envoys/index.pug -o ./hybrid-envoys`
+pug templates/hybrid-envoys/index.pug -o ./hybrid-envoys
 
-`pug templates/camps/index.pug -o ./camps`
+pug templates/camps/index.pug -o ./camps
 
 ### Compile SASS
 
