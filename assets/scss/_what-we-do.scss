@@ -97,6 +97,7 @@
         }
     }
     .single-do {
+        border: 1px solid #ececec;
         @include transition(.3s);
         padding:56px 40px 69px;
         @media #{$lg}{
