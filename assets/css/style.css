@@ -292,6 +292,10 @@ h3 {
   }
 }
 
+h4 {
+  font-weight: 600;
+}
+
 h5 {
   font-weight: 700;
 }
@@ -334,7 +338,7 @@ ul {
   overflow: hidden;
 }
 
-.clear {
+i3 .clear {
   clear: both;
 }
 
