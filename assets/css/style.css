@@ -292,6 +292,10 @@ h3 {
   }
 }
 
+h4 {
+  font-weight: 600;
+}
+
 h5 {
   font-weight: 700;
 }
@@ -300,13 +304,17 @@ h6 {
   font-weight: 800;
 }
 
-p {
+p, ul, li {
   font-family: "Poppins", sans-serif;
   color: #564a78;
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 15px;
   font-weight: normal;
+}
+
+ul {
+  text-align: left;
 }
 
 .img {
@@ -330,7 +338,7 @@ p {
   overflow: hidden;
 }
 
-.clear {
+i3 .clear {
   clear: both;
 }
 
@@ -3216,6 +3224,7 @@ hr {
   }
 }
 .what-we-do .single-do {
+  border: 1px solid #ececec;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
