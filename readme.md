@@ -2,7 +2,7 @@
 
 pug templates/index.pug -o ./
 
-pug templates/member-benefits/index.pug -o ./member-benefits/
+pug templates/hybrid-campus/index.pug -o ./hybrid-campus/
 
 pug templates/orientation/index.pug -o ./orientation
 
