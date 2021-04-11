@@ -3453,10 +3453,18 @@ hr {
   top: 11px;
   left: 8px;
 }
+.we-create-area .fa-dumbbell:before {
+  left: 7.5px;
+  top: 10px;
+}
 .we-create-area .fa-heart:before {
   top: 11.4px;
   position: relative;
   left: 10.4px;
+}
+.we-create-area .fa-pencil:before {
+  left: 10.5px;
+  top: 9px;
 }
 .we-create-area .fa-hands-helping:before {
   top: 11px;
