@@ -27,10 +27,16 @@
             text-transform: capitalize;
         }
         & ul{
-            & li{
+            & li {
                 color: $heading-color;
                 margin-bottom: 15px;
                 line-height: 14px;
+                @media #{$xs}{
+                    text-align: center;
+                }
+                @media #{$sm}{
+                    text-align: center;
+                }
                 & a{
                     color: $heading-color;
                     font-weight: 400;

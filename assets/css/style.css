@@ -4128,6 +4128,16 @@ hr {
   margin-bottom: 15px;
   line-height: 14px;
 }
+@media (max-width: 767px) {
+  .footer-area .footer-tittle ul li {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer-area .footer-tittle ul li {
+    text-align: center;
+  }
+}
 .footer-area .footer-tittle ul li a {
   color: #250e4b;
   font-weight: 400;
