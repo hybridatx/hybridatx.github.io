@@ -2,6 +2,8 @@
 
 pug templates/index.pug -o ./
 
+pug templates/hybrid-camps/index.pug -o ./hybrid-camps/
+
 pug templates/hybrid-campus/index.pug -o ./hybrid-campus/
 
 pug templates/orientation/index.pug -o ./orientation
