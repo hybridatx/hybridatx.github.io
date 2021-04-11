@@ -3435,14 +3435,14 @@ hr {
   padding-left: 60px;
 }
 .we-create-area .fa, .we-create-area .fas, .we-create-area .fab {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   background-color: #9453e8;
   border-radius: 50%;
 }
 .we-create-area .fa:before, .we-create-area .fas:before, .we-create-area .fab:before {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   top: 9px;
   position: relative;
 }
@@ -3454,22 +3454,22 @@ hr {
   left: 8px;
 }
 .we-create-area .fa-dumbbell:before {
-  left: 7.5px;
+  left: 8px;
   top: 10px;
 }
 .we-create-area .fa-heart:before {
   top: 11.4px;
   position: relative;
-  left: 10.4px;
+  left: 10.3px;
 }
 .we-create-area .fa-pencil:before {
   left: 10.5px;
-  top: 9px;
+  top: 10px;
 }
 .we-create-area .fa-hands-helping:before {
   top: 11px;
   position: relative;
-  left: 8px;
+  left: 9px;
 }
 .we-create-area .fa-users {
   left: 7px;
@@ -3669,6 +3669,10 @@ hr {
 }
 .choose-best .single-choose .do-caption ul li:last-child {
   margin-bottom: 0;
+}
+
+.choose-best--no-padding {
+  padding-bottom: 0;
 }
 
 .visit-area .single-visited .visited-img {
